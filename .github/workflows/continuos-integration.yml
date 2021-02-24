@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Project checout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Node.js setup
-        uses: actions/setup-node@v1.1.0
+        uses: actions/setup-node@v2.1.1
       - name: Installation of dependencies
         run: npm ci
       - name: Lint
