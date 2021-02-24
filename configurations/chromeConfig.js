@@ -5,7 +5,7 @@ module.exports.config = configCreator({
     directConnect: true,
     browserName: 'chrome',
     chromeOptions: {
-       args: ['--headless']
+      args: ['--headless']
     }
   }
 })
